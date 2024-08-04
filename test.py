@@ -11,8 +11,12 @@ class SNAKE:
         self.head_up = pygame.image.load('./asset/head_up.png').convert_alpha()
         self.head_down = pygame.image.load('./asset/head_down.png').convert_alpha()
         self.head_right = pygame.image.load('./asset/head_right.png').convert_alpha()
-        self.head_left = pygame.image.load('./asset/head_left.png').convert_alpha()
+       # self.head_left = pygame.image.load('./asset/head_left.png').convert_alpha()
+        
 
+        self.head_left = pygame.image.load('./asset/head_left.png').convert_alpha()
+        #self.tail_up = pygame.image.load('./asset/tail_up.png').convert_alpha()
+        
         self.tail_up = pygame.image.load('./asset/tail_up.png').convert_alpha()
         self.tail_down = pygame.image.load('./asset/tail_down.png').convert_alpha()
         self.tail_right = pygame.image.load('./asset/tail_right.png').convert_alpha()

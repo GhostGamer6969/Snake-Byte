@@ -237,10 +237,12 @@ screen = pygame.display.set_mode((cell_number * cell_size, cell_number * cell_si
 clock = pygame.time.Clock()
 apple = pygame.image.load('./asset/apple.png').convert_alpha()
 game_font = pygame.font.SysFont('arial', 25)
+#icon = pygame.image.load('./asset/sb.ico').convert_alpha()
 
+#pygame.display.set_icon(icon)
 SCREEN_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SCREEN_UPDATE, 150)
-
+pygame.display.set_caption('Snake Byte')
 start_menu = STARTMENU()
 main_game = MAIN()
 
